@@ -1,0 +1,38 @@
+.headline{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    text-align: center;
+}
+.title{
+    color: deepskyblue;
+    flex: 1;
+}
+.subtitle{
+    color: dimgray;
+}
+.content-container{
+ margin-top: 4rem;
+ width: min(70%, 800px);
+ margin-inline: auto;
+ color: rgb(73, 72, 72);
+}
+.list-item{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(73, 72, 72);
+}
+.list-item,.content-item,.image-item {
+    padding: 1em;
+    border: 2px solid deepskyblue;
+    border-radius: 10px;
+}
+img{
+    margin-top: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
