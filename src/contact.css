@@ -1,0 +1,16 @@
+.contact{
+    background-color: #333;
+    color: white;
+    width: min(80%,360px);
+    margin-inline: auto;
+    margin-top: 2rem;
+    padding: 32px;
+    border-radius: 10px;
+}
+.contact-text{
+    margin-bottom: 2px;
+}
+.map img{
+    border-radius: 30%;
+    max-width: 360px;
+}

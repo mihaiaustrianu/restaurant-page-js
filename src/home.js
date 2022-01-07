@@ -43,6 +43,9 @@ const containersGenerator = () => {
   //Hours list
   const hours = document.createElement("div");
   hours.classList.add("list-item");
+  
+  const hoursText = document.createElement("h2"); 
+  hoursText.innerHTML = "Hours"
 
   const hoursList = ["Monday-Thursday : 8am - 8pm", "Friday : 8am - 6pm","Saturday-Sunday : 8am - 4pm"];
   const listElement = document.createElement("ul");
@@ -55,6 +58,7 @@ const containersGenerator = () => {
       listItem.innerHTML = hoursList[i];
       listElement.appendChild(listItem)
   }
+  hours.appendChild(hoursText);
   hours.appendChild(listElement);
 
   //appending to container
